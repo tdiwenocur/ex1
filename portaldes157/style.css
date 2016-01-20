@@ -1,0 +1,42 @@
+*{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;	
+}
+header {
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 800px;
+	height: 250px;
+	margin: auto;
+	margin-top: 3%;
+}
+p {
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+	color: #5CD3FA;
+}
+li {
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+}
+#col1 {
+	display: inline;
+	float: left;
+	clear: both;
+	margin-left: 35%;
+	margin-right: 30px;
+}
+#col2 {
+	float: left;
+}
+footer {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 200px;	
+}
+a:link {
+	font-family: 'Oswald', sans-serif;
+	color: #5CD3FA;
+}

@@ -1,0 +1,50 @@
+*{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin-left: 10%;
+	background-repeat: repeat-y;
+    background-image: url(blogback.png);
+    background-attachment: fixed;
+}
+
+header {
+
+	margin: auto;
+	margin-top: 3%;
+}
+section{
+	margin-left: 9%;
+	position: static;
+}
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	text-align: center-left;
+	margin-left: 80px;
+	color: #B24D1B;
+}
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	width: 70%;
+}
+h2{
+	font-family: 'Pacifico', cursive;
+	text-align: left;
+	color: #5CD3FA;
+	font-size: 2em;
+	margin-bottom: 1%;
+}
+
+footer {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 200px;	
+}
+a:link {
+	font-family: 'Oswald', sans-serif;
+	color: #5CD3FA;
+}
