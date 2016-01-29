@@ -3,6 +3,11 @@
 	margin: 0px;
 	padding: 0px;	
 }
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;
+	color: #5CD3FA;
+}
 header {
 	border-width: 2px;
 	border-color: black;
