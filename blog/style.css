@@ -5,9 +5,7 @@
 }
 body{
 	margin-left: 10%;
-	background-repeat: repeat-y;
-    background-image: url(blogback.png);
-    background-attachment: fixed;
+    background-color: #B24D1B;
 }
 
 header {
@@ -17,26 +15,36 @@ header {
 }
 section{
 	margin-left: 9%;
+	margin-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 1%;
+	padding-bottom: 2%;
 	position: static;
+	background-color: rgba(255,255,255,.85);
+	width: 55%;
+	
 }
 h1{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	text-align: left;
-	margin-left: 80px;
-	color: #B24D1B;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-left: 100px;
+	color: #FFFFFF;
 }
 p {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
-	width: 70%;
+	width: 90%;
+	margin-bottom: 10px;
 }
 h2{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Raleway', sans-serif;
 	text-align: left;
 	color: #5CD3FA;
 	font-size: 2em;
-	margin-bottom: 1%;
+	margin-bottom: 2%;
 }
 
 footer {
@@ -45,6 +53,6 @@ footer {
 	margin-left: 200px;	
 }
 a:link {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #5CD3FA;
 }
