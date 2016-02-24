@@ -39,6 +39,12 @@ p {
 	width: 90%;
 	margin-bottom: 10px;
 }
+li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	width: 90%;
+	margin-bottom: 10px;
+}
 h2{
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
