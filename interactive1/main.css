@@ -1,0 +1,101 @@
+body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #A894C7;
+    
+}
+
+section#formthing {
+	width: 800px;
+	
+}
+form{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 200px;
+    
+}
+input{
+    font-family: 'Lato', san-serif;
+    font-size: 20pt;
+	width: 350px;
+	float: left;
+}
+
+
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	width: 2500px;
+	background-color: #1A4175;
+}
+nav img{
+	position: relative;
+	float: left;
+	top: 30px;
+	left: 15px;
+	
+}
+
+nav h1{
+    font-size: 30px;
+	font-weight: 400;
+    position: relative;
+	color: white;
+    left: 30px;
+    bottom: 0px;
+ 
+}
+nav ul {
+	list-style: none;
+	position: relative;
+	left: 900px;
+	bottom: 50px;
+}
+nav ul li{
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+	margin-right: 7px;
+	float: left;
+	
+}
+nav a:link{
+	color: white;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-style: none;
+}
+nav a:hover{
+	color: #F0974C;
+	font-style: underline;
+	
+}
+h2{
+    font-size: 2em;
+    line-height: 17px;
+    color: #95D1B1;
+    position: relative;
+    left: 200px;
+    bottom: 680px;
+}
+
+img#map {
+	position: absolute;
+	top: 250px;
+	left: 35%;
+	top: 250px;
+}
+
+#the-basics .typeahead{
+    border-style: solid;
+    border-color: #A894C7;
+    
+}
+section#validation {
+	position: absolute;
+	left: 40%;
+	top: 90%;
+}
