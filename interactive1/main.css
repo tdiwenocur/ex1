@@ -69,6 +69,9 @@ nav a:link{
 	font-weight: 300;
 	font-style: none;
 }
+nav a:visited{
+	color: #F9DEDE;
+}
 nav a:hover{
 	color: #F0974C;
 	font-style: underline;
@@ -90,7 +93,17 @@ img#map {
 	top: 120px;
 	width: 700px;
 }
-
+img#yourloc{
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	
+}
+img#zoom {
+	position: absolute;
+	top: 200px;
+	left: 250px;
+}
 #the-basics .typeahead{
     border-style: solid;
     border-color: #A894C7;
