@@ -6,21 +6,22 @@ body{
 }
 
 section#formthing {
-	width: 800px;
-	
+	width: 300px;
+	background-color: #1A4175;
 }
 form{
     position: absolute;
-    top: 120px;
-    left: 50px;
-    width: 200px;
-    
+    top: 200px;
+    left: 900px;
+    width: 400px;
+    color: #1A4175;
 }
 input{
     font-family: 'Lato', san-serif;
-    font-size: 20pt;
-	width: 350px;
+    font-size: 15pt;
+	width: 250px;
 	float: left;
+	color: #1A4175;
 }
 
 
@@ -28,7 +29,7 @@ nav{
     position: absolute;
     top: 0px;
     left: 0px;
-	width: 2500px;
+	width: 2000px;
 	background-color: #1A4175;
 }
 nav img{
@@ -51,7 +52,7 @@ nav h1{
 nav ul {
 	list-style: none;
 	position: relative;
-	left: 900px;
+	left: 700px;
 	bottom: 50px;
 }
 nav ul li{
@@ -84,9 +85,10 @@ h2{
 
 img#map {
 	position: absolute;
-	top: 250px;
-	left: 35%;
-	top: 250px;
+	top: 150px;
+	left: 300px;
+	top: 120px;
+	width: 700px;
 }
 
 #the-basics .typeahead{
@@ -94,8 +96,26 @@ img#map {
     border-color: #A894C7;
     
 }
+section#legend{
+	position: absolute;
+	left: 900px;
+	top: 270px;
+}
+section#legend h3{
+	color: black;
+	font-size: 1.1em;
+	
+}
+section#legend ul{
+	list-style: none;
+}
+section#legend ul li{
+	color: black;
+	font-size: 1.2em;
+	margin-bottom: 3px;
+}
 section#validation {
 	position: absolute;
 	left: 40%;
-	top: 90%;
+	top: 95%;
 }
