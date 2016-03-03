@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #A894C7;
+    
+}
+
+section#formthing {
+	width: 300px;
+	background-color: #1A4175;
+}
+form{
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    width: 400px;
+    color: #1A4175;
+}
+input{
+    font-family: 'Lato', san-serif;
+    font-size: 15pt;
+	width: 250px;
+	float: left;
+	color: #1A4175;
+}
+
+
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	width: 2000px;
+	background-color: #1A4175;
+}
+nav img{
+	position: relative;
+	float: left;
+	top: 30px;
+	left: 15px;
+	
+}
+
+nav h1{
+    font-size: 30px;
+	font-weight: 400;
+    position: relative;
+	color: white;
+    left: 30px;
+    bottom: 0px;
+ 
+}
+nav ul {
+	list-style: none;
+	position: relative;
+	left: 700px;
+	bottom: 50px;
+}
+nav ul li{
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+	margin-right: 7px;
+	float: left;
+	
+}
+nav a:link{
+	color: white;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-style: none;
+}
+nav a:visited{
+	color: #F9DEDE;
+}
+nav a:hover{
+	color: #F0974C;
+	font-style: underline;
+	
+}
+h2{
+    font-size: 2em;
+    line-height: 17px;
+    color: #95D1B1;
+    position: relative;
+    left: 200px;
+    bottom: 680px;
+}
+
+img#map {
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	top: 120px;
+	width: 700px;
+	z-index: .9;
+}
+img#busmap {
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	top: 120px;
+	width: 700px;
+}
+img#yourloc{
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	z-index: 1;
+}
+section#zoom{
+	position: absolute;
+	top: 200px;
+	left: 250px;
+	width: 60px;
+	height: 120px;
+	padding: 7px;
+	padding-right: 4px;
+	border-style: solid;
+	border-color: #1A4175;
+	border-width: 3px;
+	
+}
+
+#the-basics .typeahead{
+    border-style: solid;
+    border-color: #A894C7;
+    
+}
+section#legend{
+	position: absolute;
+	left: 900px;
+	top: 270px;
+}
+section#legend h3{
+	color: black;
+	font-size: 1.1em;
+	
+}
+img#bulletpts {
+	float: left;
+	
+}
+section#legend ul{
+	list-style: none;
+}
+section#legend ul li{
+	color: black;
+	font-size: 1.2em;
+	margin-bottom: 3px;
+}
+section#validation {
+	position: absolute;
+	left: 41%;
+	top: 95%;
+}
