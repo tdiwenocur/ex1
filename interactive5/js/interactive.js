@@ -1,6 +1,7 @@
 $(document).ready(function(){
     
     console.log("ready");
+
 //show map
 $('img#map').show();
 //hide bus map
@@ -182,5 +183,24 @@ $('section#legend #bath').mouseleave(function(){
 	});
 	
 });
+//defining function processForm
+  function processForm() {
+ //store form input in a variable
+    var input = document.f.location.value;
+	//capture the msg element to change its text and html
+      var myMsg = document.getElementById("myMsg");
+
+
+	  myMsg.innerHTML = "Your location is" + input + ". If this were a full prototype, all of the resources near you would be highlighted now and the pointer would move on the map. Prototyping fun.";
+      myMsg.className = "show";
+	console.log("just submitted, guys!");
+	
+  
+ //prevent page from reloading
+    return false;
+}
+//when you press submit button
+document.f.onsubmit = processForm;
+
 //close jquery
 })

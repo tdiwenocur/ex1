@@ -16,6 +16,24 @@ form{
     width: 400px;
     color: #1A4175;
 }
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  width: 600px;
+}
+#myMsg{
+    width: 200px;
+    color: #1A4175;
+	position: absolute;
+    left: 200px;
+    top: 85%;
+    font-size: 1.2em;
+    width: 500px;
+}
 input{
     font-family: 'Lato', san-serif;
     font-size: 15pt;
