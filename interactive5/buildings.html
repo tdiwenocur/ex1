@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>List of Buildings</title>
+       <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css"> 
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="js/typeahead.jquery.min.js"></script>
+        <script src="js/interactive.js"></script>
+        
+    </head>
+    <header>
+	<style>
+body{
+text-align: left;
+}
+nav{
+	background-color: #1A4175;
+	width: 100%;
+}
+nav h1{
+	font-size: 40px;
+	position: relative;
+	left: 5%;
+	top: 90%;
+}
+nav p{
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	font-size: 15pt;
+}
+a:link{
+	color: white;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-style: none;
+	text-decoration: none;
+	text-decoration: none;
+}
+a:visited{
+	color: #F9DEDE;
+}
+a:hover{
+	color: #F0974C;
+	font-style: underline;
+	
+}
+ul{
+	position: absolute;
+	top: 20%;
+	
+}
+ul#col1{
+	left: 17%;
+}
+ul#col2{
+	left: 55%;
+}
+
+ul li{
+	list-style: none;
+	text-align: left;
+	margin-bottom: 5px;
+	font-size: 22px;
+	color: #1A4175;
+}
+section#validation{
+	position: absolute;
+	left: 20%;
+	top: 45%;
+}
+	</style>
+	</header>
+    <body>
+	<nav>
+	<h1>Buildings Index</h1>
+	<p><a href="index.html">Back to map </a>|</p>
+	</nav>
+	<ul id="col1">
+		<li>3rd & A </li>
+		<li>Academic Surge</li>
+		<li>Activities and Recreation Center</li>
+		<li>Advanced Materials</li>
+		<li>Research Laboratory</li>
+		<li>Aggie Village</li>
+		<li>Agriculture Field Station</li>
+		<li>Arboretum Headquarters </li>
+		<li>Arboretum Teaching Nursery</li>
+		<li>ARC Pavilion </li>
+		<li>Art Annex</li>
+		<li>Art Building </li>
+		<li>Asmundson Hall</li>
+		<li>Athletics Annex </li>
+		<li>Bainer Hall</li>
+		<li>Bargain Barn </li>
+		<li>Book Store</li>
+		<li>Bowley Plant Science</li>
+		<li>Teaching Facility </li>
+		<li>Briggs Hall</li>
+		<li>Center for Child and Family Studies</li>
+		<li>Center for Companion Animal Health</li>
+		<li>Chancellor’s Residence</li>
+		<li>Chemistry</li>
+		<li>Chemistry Annex</li>
+		<li>Cole Facility</li>
+		<li>Conference Center</li>
+		<li>Cowell Building</li>
+		<li>Cruess Hall</li>
+		<li>Cuarto Residence Halls</li>
+		<li>Dairy Cattle Facility</li>
+		<li>Domes</li>
+		<li>Dutton Hall</li>
+		<li>Earth and Physical Sciences</li>
+		<li>Educational Opportunity Program</li>
+		<li>Enology Laboratory</li>
+		<li>Environmental Horticulture</li>
+		<li>Equestrian Center Covered Arena</li>
+		<li>Everson Hall</li>
+		<li>Facilities Services</li>
+		<li>Fire & Police Building</li>
+		<li>Fleet Services</li>
+		<li>Food Science & Technology</li>
+		<li>Freeborn Hall</li>
+		<li>Gallagher Hall</li>
+		<li>Genome & Biomedical Sciences Facility</li>
+		<li>Giedt Hall</li>
+		<li>Gourley Clinical Teaching Center</li>
+		<li>Ghausi Hall</li>
+		<li>Guilbert House</li>
+		<li>Haring Hall</li>
+		<li>Hart Hall</li>
+		<li>Heitman Staff Learning Center</li>
+		<li>Hickey Gym</li>
+		<li>Hoagland Hall </li>
+		<li>Student Housing Admin</li>
+		<li>Human Resources Administration Building</li>
+		<li>Hunt Hall</li>
+		<li>Hutchison Child Development Center</li>
+		<li>Hutchison Hall</li>
+		<li>Hyatt Place </li>
+		<li>International House</li>
+		<li>Jackson Sustainable Winery</li>
+		<li>Jungerman Hall </li>
+		<li>Kemper Hall</li>
+		<li>Kerr Hall</li>
+		<li>King Hall</li>
+		<li>Kleiber Hall</li>
+		<li>La Rue Apartments </li>
+		<li>Life Sciences</li>
+		<li>Los Rios Community College </li>
+		<li>Maddy Lab</li>
+		<li>Mann Laboratory </li>
+		<li>Mathematical Sciences</li>
+		<li>Medical Sciences I B</li>
+		<li>Medical Sciences I C</li>
+		<li>Memorial Union</li>
+		<li>Meyer Hall</li>
+		<li>Mondavi Center</li>
+		<li>Mrak Hall</li>
+		<li>Music</li>
+	</ul>
+	<ul id="col2">
+		<li>Nelson Gallery</li>
+		<li>North Hall</li>
+		<li>Olson Hall</li>
+		<li>Orchard Park Apartments</li>
+		<li>Outdoor Adventures</li>
+		<li>Parsons Hall</li>
+		<li>Peter A. Rock Hall</li>
+		<li>Physical Sciences and Engineering Library</li>
+		<li>Physics</li>
+		<li>Plant & Environmental Sciences</li>
+		<li>Plant Reproductive Biology Facility</li>
+		<li>Primero Grove Apartments</li>
+		<li>Pritchard VMTH</li>
+		<li>Putah Creek Lodge</li>
+		<li>Regan Residence Halls</li>
+		<li>RMI Brewery, Winery and Food Pilot Facility</li>
+		<li>Robert Mondavi Institute for Wine and Food Science </li>
+		<li>Robbins Hall</li>
+		<li>Robbins Hall Annex</li>
+		<li>Roessler Hall</li>
+		<li>Russell Park Apartments</li>
+		<li>Schaal Aquatic Center</li>
+		<li>Schalm Hall</li>
+		<li>School of Education</li>
+		<li>Sciences Lab</li>
+		<li>Sciences Lecture Hall</li>
+		<li>Segundo Dining Commons</li>
+		<li>Segundo Residence Halls</li>
+		<li>Shields Library</li>
+		<li>Silo</li>
+		<li>Social Sciences and Humanities</li>
+		<li>Solano Park Housing</li>
+		<li>Solstice Apartments</li>
+		<li>South Hall</li>
+		<li>South Silo</li>
+		<li>Sproul Hall</li>
+		<li>Storer Hall</li>
+		<li>Student Community Center</li>
+		<li>Student Farm Field House</li>
+		<li>Student Health and Wellness Center</li>
+		<li>Surge II</li>
+		<li>Surge III</li>
+		<li>Surge IV</li>
+		<li>TB 9</li>
+		<li>TB 161-172, 175</li>
+		<li>TB 191-194</li>
+		<li>TB 195</li>
+		<li>TB 204-205</li>
+		<li>Tercero Dining Commons</li>
+		<li>Tercero Residence Halls</li>
+		<li>The Barn</li>
+		<li>The Colleges of La Rue</li>
+		<li>Thurman Laboratory</li>
+		<li>The Ramble Apartments</li>
+		<li>Transportation and Parking Services</li>
+		<li>Tupper Hall</li>
+		<li>UC Davis Extension International Center</li>
+		<li>Unitrans</li>
+		<li>University House & Annex </li>
+		<li>Utilities Headquarters</li>
+		<li>Valley Hall</li>
+		<li>Veihmeyer Hall</li>
+		<li>Vet Med 2</li>
+		<li>Vet Med 3A</li>
+		<li>Vet Med 3B</li>
+		<li>Vet Med Equine Athletic Performance Lab</li>
+		<li>Viridian Apartments</li>
+		<li>Voorhies Hall</li>
+		<li>Walker Hall</li>
+		<li>Walter A. Buehler Alumni Center</li>
+		<li>Watershed Science</li>
+		<li>Welcome Center</li>
+		<li>Wellman Hall </li>
+		<li>Western Center for Agricultural Equipment</li>
+		<li>Western Human Nutrition
+Research Center(WHNRC)</li>
+		<li>Wickson Hall</li>
+		<li>Wright Hall</li>
+		<li>Wyatt Deck</li>
+		<li>Wyatt Pavilion</li>
+		<li>Young Hall</li>
+		
+		
+	</ul>
+	
+	    <section id="validation">
+	<a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+	</section>
+    </body>
+    </html>
