@@ -5,10 +5,18 @@ $(document).ready(function(){
 $('img#map').show();
 //hide bus map
 $('img#busmap').hide();
+//hide entrance map
+$('img#entrmap').hide();
 
 //showing bus map on click of legend
 $('li#busstn').click(function(){
 	$('img#busmap').toggle();
+	$('img#map').toggle();
+		return false;
+})
+//showing entrance map on click of legend
+$('li#entrances').click(function(){
+	$('img#entrmap').toggle();
 	$('img#map').toggle();
 		return false;
 })
@@ -67,27 +75,35 @@ $('#the-basics .typeahead').typeahead({
 
 
 //clicking on zoom
-
+var clicks = 0;
 $('#zoomin').click(function(){
 console.log("clicked zoom in");
+    if(clicks == 0){
+	console.log("clicked zoom in once");
 	$('#map').animate({
 		width: "900px",
 		opacity: 1,
-	}
-	
-	);
+	});
 	$('#yourloc').animate({
 		width: "160px",
 		opacity: 1,
 		left: "740px",
-	}
-	
-	);
+	});
 	$('section#validation').hide();
-		
-		
-	
-});
+        // first click
+    }else{
+        // second click
+		$('#map').animate({
+		width: "1600px",
+	});
+	$('#yourloc').animate({
+		width: "320px",
+		left: "1000px",
+	});
+	}
+++clicks;
+})	
+
 $('#zoomout').click(function(){
 console.log("clicked zoom out");
 	$('#map').animate({
@@ -110,8 +126,9 @@ console.log("clicked zoom out");
 	
 	);
 	$('section#validation').show();
+	clicks=0;
 });
-//hover on legend
+//hover on bus legend
 	$('section#legend #busstn').mouseenter(function(){
 		$('section#legend #busstn').animate({
 		fontSize: "1.5em",
@@ -125,5 +142,45 @@ $('section#legend #busstn').mouseleave(function(){
 	
 });
 
+//hover on entrances legend
+	$('section#legend #entrances').mouseenter(function(){
+		$('section#legend #entrances').animate({
+		fontSize: "1.5em",
+	});
+	
+});
+$('section#legend #entrances').mouseleave(function(){
+		$('section#legend #entrances').animate({
+		fontSize: "1.2em",
+	});
+	
+});
+//hover on mas
+	$('section#legend #mas').mouseenter(function(){
+		$('section#legend #mas').animate({
+		fontSize: "1.5em",
+	});
+	
+});
+$('section#legend #mas').mouseleave(function(){
+		$('section#legend #mas').animate({
+		fontSize: "1.2em",
+	});
+	
+});
+
+//hover on bathroom legend
+	$('section#legend #bath').mouseenter(function(){
+		$('section#legend #bath').animate({
+		fontSize: "1.5em",
+	});
+	
+});
+$('section#legend #bath').mouseleave(function(){
+		$('section#legend #bath').animate({
+		fontSize: "1.2em",
+	});
+	
+});
 //close jquery
 })

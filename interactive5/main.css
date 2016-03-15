@@ -103,6 +103,13 @@ img#busmap {
 	top: 120px;
 	width: 700px;
 }
+img#entrmap {
+	position: absolute;
+	top: 150px;
+	left: 350px;
+	top: 120px;
+	width: 700px;
+}
 img#yourloc{
 	position: absolute;
 	top: 200px;
@@ -137,6 +144,9 @@ section#legend h3{
 	
 }
 section#legend #busstn a:hover{
+	font-size: 1.5em;
+}
+section#legend #entrances a:hover{
 	font-size: 1.5em;
 }
 img#bulletpts {
