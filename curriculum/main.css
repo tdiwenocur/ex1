@@ -1,0 +1,113 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body {
+    background-color: #58585b;
+    
+}
+
+p#intropara{
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    width: 23%;
+    padding: 8px;
+    color: #2c5570;
+    font-size: 11pt;
+    background-color: rgba(252,252,252, .6);
+}
+img#dropdown{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    
+}
+nav img{
+    position: relative;
+    left: 30%;
+    top: 0%;
+    width: 40%;   
+    z-index: 1;
+}
+#navtext{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    z-index: 3;
+    
+}
+#navtext a{
+    font-size: 18pt;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    line-height: 105%;
+}
+#navtext #p1{
+    position: inherit;
+    width: inherit;
+    left: 4%;
+    top: 54%;
+}
+#navtext #p2{
+    position: inherit;
+    width: 50%;
+    left: 50%;
+    top: 56%;
+    z-index: 3;
+
+}
+#navtext #p3{
+    position: inherit;
+    left: 31%;
+    top:70%;
+    z-index: 3;
+
+}
+
+img #logo {
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+    
+}
+
+section#navtext a:hover{
+    font-size: 24pt;
+    
+}
+
+img#qmark{
+    position: absolute;
+    left: 92%;
+    top: 2%;
+    width: inherit;
+}
+section#faq{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    width: 28%;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(252,252,252, .75);
+    z-index: 5;
+}
+section#faq p{
+    font-size: 11pt;
+    color: #2c5570;
+    font-weight: 300;
+    
+}
+section#faq .question{
+    font-weight: 400;
+    
+}
+section#faq h3{
+    color: #2c5570;
+    
+}
