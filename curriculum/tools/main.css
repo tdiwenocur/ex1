@@ -1,0 +1,189 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+body {
+    background-color: #58585b;
+    
+}
+img#mockup{
+    width: 70%;
+    position: absolute;
+    left: 20%;
+}
+/*all the stuff on the side bar*/
+#sidebar{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 9%;
+    height: 100%;
+   background-color: #d7b33b;
+}
+
+img#logo{
+    position: absolute;
+    left: 11%;
+    top: 3%;
+}
+img#puzzle{
+    position: absolute;
+    left: 1.5%;
+    top: 3%;
+    
+}
+nav{
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    width: 8%;
+    
+}
+nav p{
+    font-size: 8pt;
+    z-index: 8;
+    line-height: 12pt;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 10pt;
+}
+/*main content*/
+section#title h2{
+    position: absolute;
+    width: 20%;
+    top: 3%;
+    left: 40%;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+div#emptystrip{
+    position: absolute;
+    left: 2%;
+    top: 17%;
+    width: 15%;
+    height: 50%;
+    
+}
+section#spectrum{
+    position: absolute;
+    left: 20%;
+    top: 17%;
+    
+}
+section#spectrum img{
+    float: left;
+    
+}
+section#spectrum h3{
+    color: white;
+     font-weight: 700;
+    line-height: 10pt;
+}
+section#spectrum h3:hover{
+    color: black;
+    
+}
+article#categories{
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    
+}
+article#categories h6{
+    color: white;
+    font-size: 13pt;
+    font-weight: 700;
+    line-height: 16pt;
+}
+section#branches a:link{
+    color: white;
+    text-decoration: none;
+    
+}
+section#branches a:hover{
+    font-size: 15pt;
+    
+}
+article#categories #textile:hover{
+    color: #dcbf5f;
+}
+article#categories #exhibt:hover{
+    color: #d9b644;
+}
+article#categories #interior:hover{
+    color: #aeb55d;
+}
+article#categories #ix:hover{
+    color: #77a785;
+}
+article#categories #viscom:hover{
+    color: #4e949d;
+}
+article#categories #prod:hover{
+    color: #257e92;
+}
+article#categories #sust:hover{
+    color: #133c5e;
+}
+
+section#branches{
+    position:absolute;
+    left: 60%;
+    top: 28%;
+    
+}
+section#branches ul{
+    list-style: none;
+    
+}
+section#branches ul li{
+    color: white;
+    font-size: 12pt;
+    line-height: 30pt;
+}
+
+
+/* everything at the bottom of the page */
+article#dept{
+    position: fixed;
+    left: 11%;
+    top: 93%;
+    
+}
+
+img#qmark{
+    position: absolute;
+    left: 92%;
+    top: 2%;
+    width: inherit;
+}
+section#faq{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    width: 28%;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(252,252,252, .75);
+    z-index: 5;
+}
+section#faq p{
+    font-size: 11pt;
+    color: #2c5570;
+    font-weight: 300;
+    
+}
+section#faq .question{
+    font-weight: 400;
+    
+}
+section#faq h3{
+    color: #2c5570;
+    
+}
