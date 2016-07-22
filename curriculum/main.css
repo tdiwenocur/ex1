@@ -25,22 +25,22 @@ img#dropdown{
 }
 nav img{
     position: relative;
-    left: 30%;
-    top: 0%;
-    width: 40%;   
+    left: 450px;
+    top: 50px;
+    width: 382px;   
     z-index: 1;
 }
 #navtext{
-    width: 40%;
-    height: 100%;
+    width: 382;
+    height: 700px;
     position: absolute;
-    left: 30%;
+    left: 450px;
     top: 0%;
     z-index: 3;
     
 }
 #navtext a{
-    font-size: 18pt;
+    font-size: 14pt;
     text-decoration: none;
     font-weight: 300;
     color: white;
@@ -48,23 +48,23 @@ nav img{
     line-height: 105%;
 }
 #navtext #p1{
-    position: inherit;
+    position: relative;
     width: inherit;
-    left: 4%;
-    top: 54%;
+    left: 40px;
+    top: 370px;
 }
 #navtext #p2{
     position: inherit;
-    width: 50%;
-    left: 50%;
-    top: 56%;
+    width: 200px;
+    left: 195px;
+    top: 380px;
     z-index: 3;
 
 }
 #navtext #p3{
     position: inherit;
-    left: 31%;
-    top:70%;
+    left: 130px;
+    top: 470px;
     z-index: 3;
 
 }
@@ -77,7 +77,7 @@ img #logo {
 }
 
 section#navtext a:hover{
-    font-size: 24pt;
+    font-size: 18pt;
     
 }
 
