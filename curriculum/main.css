@@ -3,7 +3,7 @@
     
 }
 body {
-    background-color: #58585b;
+    background-color: #b3dece;
     
 }
 
@@ -25,8 +25,8 @@ img#dropdown{
 }
 nav img{
     position: relative;
-    left: 450px;
-    top: 50px;
+    left: 445px;
+    top: 55px;
     width: 382px;   
     z-index: 1;
 }
@@ -40,7 +40,7 @@ nav img{
     
 }
 #navtext a{
-    font-size: 14pt;
+    font-size: 12pt;
     text-decoration: none;
     font-weight: 300;
     color: white;
@@ -50,34 +50,34 @@ nav img{
 #navtext #p1{
     position: relative;
     width: inherit;
-    left: 40px;
+    left: 50px;
     top: 370px;
 }
 #navtext #p2{
     position: inherit;
     width: 200px;
-    left: 195px;
-    top: 380px;
+    left: 190px;
+    top: 390px;
     z-index: 3;
 
 }
 #navtext #p3{
     position: inherit;
-    left: 130px;
-    top: 470px;
+    left: 135px;
+    top: 480px;
     z-index: 3;
 
 }
 
 img #logo {
     position: absolute;
-    left: 7%;
-    bottom: 10%;
+    left: 10%;
+    bottom: 5%;
     
 }
 
 section#navtext a:hover{
-    font-size: 18pt;
+    font-size: 13pt;
     
 }
 

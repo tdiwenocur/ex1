@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 //hover the question mark
 $("img#qmark").hover(function(){
-    $("img#qmark").css("width","4%"); 
+    $("img#qmark").css("width","3%"); 
     },
     function(){
      $("img#qmark").css("width", "inherit"); 
