@@ -8,24 +8,10 @@ $(document).ready(function () {
 $("section#faq").hide();
     //hide the nav
     $("nav").hide();
-//click the nav
-$("#sidebar").click(function(){
-    $("#sidebar").hide(500);
-    $("img#puzzle").css("width","1%");
-    $("img#puzzle").css("top","1%");
-    $("nav").show();
+
+//show nav
     
-});
-//click the nav
-    
-    $("img#puzzle").click(function(){
-    $("#sidebar").show(500);
-    $("img#puzzle").css("width","inherit");
-    $("img#puzzle").css("top","3%");
-    $("nav").hide();
-    
-});
-   
+$("nav").show();
 
     
     

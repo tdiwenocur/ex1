@@ -3,48 +3,37 @@
     font-weight: 300;
 }
 body {
-    background-color: #58585b;
+    background-color: white;
     
 }
  
 /*all the stuff on the side bar*/
-#sidebar{
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    width: 9%;
-    height: 100%;
-   background-color: #688e47;
-}
 
-img#logo{
-    position: absolute;
-    left: 11%;
-    top: 3%;
-}
 img#puzzle{
     position: absolute;
-    left: 1.5%;
+    left: 10px;
     top: 3%;
     
 }
 nav{
     position: absolute;
-    top: 3%;
+    top: 150px;
     left: 1%;
     width: 8%;
     
 }
 nav p{
-    font-size: 8pt;
+   font-size: 12pt;
     z-index: 8;
     line-height: 12pt;
+    color: #a7a9ab;
 }
 nav a:link{
     text-decoration: none;
+      color: #a7a9ab;
 }
 nav a:hover{
-    font-size: 10pt;
+    font-weight: 400;
 }
 /*main content*/
 section#title h2{
@@ -53,7 +42,7 @@ section#title h2{
     top: 3%;
     left: 32.5%;
     text-align: center;
-    color: white;
+    color: #8bcadd;
     font-weight: 700;
     font-size: 25pt;
 }
@@ -62,8 +51,8 @@ section#title h2{
 
 section#classes ul{
     position: absolute;
-    left: 28%;
-    top: 15%;
+    left: 500px;
+    top: 130px;
     width: 45%;
     
 }
@@ -71,7 +60,7 @@ section#classes ul li{
     font-weight: 400;
     font-size: 14pt;
     line-height: 30pt;
-    color: white;
+    color: #808284;
     list-style: none;
 }
 section#classes ul li.description{
