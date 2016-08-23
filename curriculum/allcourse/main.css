@@ -35,6 +35,18 @@ nav a:link{
 nav a:hover{
     font-weight: 400;
 }
+p#home a:hover{
+    color: #b0a4be;
+}
+p#interest a:hover{
+    color: #95a6d5;
+}
+p#tools a:hover{
+    color: #b0d2a9;
+}
+nav a:visited{
+    color: #a7a9ab;
+}
 /*main content*/
 section#title h2{
     position: absolute;
