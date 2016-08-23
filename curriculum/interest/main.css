@@ -3,7 +3,7 @@
     font-weight: 300;
 }
 body {
-    background-color: #58585b;
+    background-color: white;
     
 }
  
@@ -13,8 +13,8 @@ body {
     left: 0%;
     top: 0%;
     width: 9%;
-    height: 100%;
-   background-color: #4a909e;
+    height: 750px;
+   background-color: white;
 }
 
 img#logo{
@@ -24,36 +24,51 @@ img#logo{
 }
 img#puzzle{
     position: absolute;
-    left: 1.5%;
+    left: 10px;
     top: 3%;
     
 }
+/** dealing with the navigation **/
 nav{
     position: absolute;
-    top: 3%;
+    top: 150px;
     left: 1%;
     width: 8%;
     
 }
 nav p{
-    font-size: 8pt;
+    font-size: 12pt;
     z-index: 8;
     line-height: 12pt;
+    color: #a7a9ab;
 }
 nav a:link{
     text-decoration: none;
+    color: #a7a9ab;
 }
 nav a:hover{
-    font-size: 10pt;
+    font-weight: 400;
+}
+p#home a:hover{
+    color: #b0a4be;
+}
+p#tools a:hover{
+    color: #b0d2a9;
+}
+p#all a:hover{
+    color: #8bcadd;
+}
+nav a:visited{
+    color: #a7a9ab;
 }
 /*main content*/
 section#title h2{
     position: absolute;
-    width: 20%;
-    top: 3%;
-    left: 40%;
+    width: 400px;
+    top: 20px;
+    left: 450px;
     text-align: center;
-    color: white;
+    color: #95a6d5;
     font-weight: 400;
     font-size: 20pt;
 }
@@ -77,7 +92,7 @@ section#spectrum img{
     
 }
 section#spectrum h3{
-    color: white;
+    color: #a7a9ab;
      font-weight: 700;
     line-height: 10pt;
 }
@@ -92,13 +107,13 @@ article#categories{
     
 }
 article#categories h6{
-    color: white;
+    color: #a7a9ab;
     font-size: 13pt;
     font-weight: 700;
     line-height: 16pt;
 }
 section#branches a:link{
-    color: white;
+    color: #a7a9ab;
     text-decoration: none;
     
 }
@@ -139,7 +154,7 @@ section#branches ul{
     
 }
 section#branches ul li{
-    color: white;
+    color: #a7a9ab;
     font-size: 12pt;
     line-height: 30pt;
 }
@@ -148,7 +163,7 @@ section#branches ul li{
 /* everything at the bottom of the page */
 article#dept{
     position: absolute;
-    left: 11%;
+    left: 20px;
     top: 93%;
     
 }
