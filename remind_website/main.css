@@ -1,0 +1,100 @@
+html { 
+  background: url(images/homepage_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-image: url(images/homepage_background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+/*dealing with row spacer */
+div.spacer{
+    height: 100px;
+}
+/* dealing with the row with the hamburger*/
+div#hamburger img{
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+}
+/*dealing with the nav */
+div#nav{
+    position: fixed;
+    top: 0px;
+    left: -25px;
+    z-index: 2;
+}
+div#nav ul{
+     background-color: rgba(255,255,255, .6);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+div#nav ul img{
+    padding-bottom: 7px;
+}
+div#nav li{
+    padding-bottom: 7px;
+    list-style: none;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 0%;
+}
+div#nav li a{
+    color: black;
+}
+div#nav li a:hover{
+    
+}
+/* dealing with real content*/
+.container{
+    display: table;
+}
+div#slogan{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+div#slogan .col-sm-6{
+    width: 50%;
+}
+div#slogan h2{
+    color: white;
+    font-weight: 200;
+    font-size: 2.7vw;
+    float: left;
+    clear: right;
+}
+h2#firsthalf{
+    text-align: right;
+    position: relative;
+    left: 15%;
+}
+h2#sechalf{
+    position: relative;
+    left: 20%;   
+}
+div#buyapp{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+}
+img.center-block{
+    display: inline;
+    position: absolute;
+    top: 5%;
+}
+img#apple{
+    left: 89%;
+    margin-right: 1%;
+}
+img#play{
+    left: 18%;
+    margin-left: 1%;
+}

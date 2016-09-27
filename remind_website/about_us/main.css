@@ -1,0 +1,117 @@
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-image: url(images/homepage_background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+/*dealing with row spacer */
+div.spacer{
+    height: 100px;
+}
+/* dealing with the row with the hamburger*/
+div#hamburger img{
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+}
+/*dealing with the nav */
+div#nav{
+    position: fixed;
+    top: 0px;
+    left: -25px;
+    z-index: 2;
+    backface-visibility: hidden;
+}
+div#nav ul{
+    background-color: rgba(255,255,255, .6);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+div#nav ul img{
+    padding-bottom: 7px;
+}
+div#nav li{
+    padding-bottom: 7px;
+    list-style: none;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 0%;
+}
+div#nav li a{
+    color: black;
+}
+div#nav li a:hover{
+    
+}
+/* dealing with real content*/
+.container{
+    display: table;
+    position: absolute;
+    top: 0px;
+
+}
+div#content .col-sm-12{
+    position: relative;
+    top: 50px;
+    width: 1400px;
+}
+h2#title{
+    text-align: center;
+    color: white;
+    font-size: 2.7vw;
+    margin-bottom: 50px;
+}
+div#content p{
+    color: white;
+    font-size: 1.2vw;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+div#staff{
+    position: relative;
+    top: 70px;
+    width: 1400px;
+}
+div#staff .col-sm-6{
+    background-color: rgba(255,255,255,.4);
+}
+div#staff .col-sm-6 h3{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+section#imggrid{
+    position: relative;
+    left: 10%;
+}
+div#staff img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+img.pushright{
+    margin-right: 100px;
+}
+section#subtitles{
+    position: relative;
+    left: 7%;
+}
+p.sub{
+    float: left;
+    text-align: center;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.1vw;
+}

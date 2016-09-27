@@ -1,0 +1,156 @@
+html{
+  background: url(images/background_image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-image: url(images/background_image.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+div#page1{
+    width: 100%;
+}
+/*dealing with row spacer */
+div.spacer{
+    height: 100px;
+}
+/* dealing with the row with the hamburger*/
+div#hamburger img{
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+}
+/*dealing with the nav */
+div#nav{
+    position: fixed;
+    top: 0px;
+    left: -25px;
+    z-index: 2;
+}
+div#nav ul{
+     background-color: rgba(255,255,255, .6);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+div#nav ul img{
+    padding-bottom: 7px;
+}
+div#nav li{
+    padding-bottom: 7px;
+    list-style: none;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 0%;
+}
+div#nav li a{
+    color: black;
+}
+/* dealing with real content*/
+.container{
+    display: table;
+}
+div#slogan{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+div#slogan .col-sm-6{
+    width: 50%;
+}
+div#slogan h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2.7vw;
+    float: left;
+    clear: right;
+}
+h2#firsthalf{
+    text-align: right;
+    position: relative;
+    left: 7.5%;
+}
+div#para .col-sm-6{
+    position: absolute;
+    top: 200px;
+    left: 7%;
+}
+div#content{
+    width: 35%;
+}
+div#para .col-sm-6 p{
+    color: white;
+    margin-bottom: 5%;
+}
+
+div#navi{
+    position: absolute;
+    left: 45%;
+    top: 580px;
+}
+div#navi ul{
+    list-style: none;
+}
+div#navi li{
+    color: white;
+    font-size: 1.6vw;
+}
+div#navi a{
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* page 2 */
+div#page2{
+    position: absolute;
+    height: 1000px;
+    width: 1366px;
+    top: 1000px;
+}
+div#navig ul{
+    list-style: none;
+    position: relative;
+    left: 42%;
+    top: 20px;
+}
+div#navig li{
+    color: white;
+    font-size: 1.6vw;
+}
+div#navig a{
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3vw;
+     margin-left: 15px;
+    margin-right: 15px;
+}
+/* title page 2*/
+
+h2#howit{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.7vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#page2 ol{
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+#page2 ol li{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.2vw;
+}
