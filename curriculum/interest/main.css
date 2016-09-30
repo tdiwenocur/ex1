@@ -96,6 +96,9 @@ section#spectrum h3{
      font-weight: 700;
     line-height: 10pt;
 }
+section#spectrum a{
+    text-decoration: none;
+}
 section#spectrum h3:hover{
     color: black;
     
@@ -112,6 +115,12 @@ article#categories h6{
     font-weight: 700;
     line-height: 16pt;
 }
+article#categories a{
+    text-decoration: none;
+}
+article#categories a:hover{
+    color: #95a6d5;
+}
 section#branches a:link{
     color: #a7a9ab;
     text-decoration: none;
@@ -120,27 +129,6 @@ section#branches a:link{
 section#branches a:hover{
     font-size: 15pt;
     
-}
-article#categories #textile:hover{
-    color: #dcbf5f;
-}
-article#categories #exhibt:hover{
-    color: #d9b644;
-}
-article#categories #interior:hover{
-    color: #aeb55d;
-}
-article#categories #ix:hover{
-    color: #77a785;
-}
-article#categories #viscom:hover{
-    color: #4e949d;
-}
-article#categories #prod:hover{
-    color: #257e92;
-}
-article#categories #sust:hover{
-    color: #133c5e;
 }
 
 section#branches{
