@@ -2,72 +2,60 @@
 	text-align: center;
 	margin: 0px;
 	padding: 0px;	
+    font-family: 'Lato', sans-serif;
 }
 body{
-	background-color: #2A110B;
+	background-color: #FFF;
 }
-h1{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	font-size: 24pt;
-	color: #6CCAD4;
-	text-align: right;
-	position: absolute;
-	top: 120px;
-	left: 30px;
+
+section#head{
+    position: absolute;
+    top:  10%;
+    width: 40%;
+    left: 30%;
 }
-header {
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
-	width: 800px;
-	height: 250px;
-	margin: auto;
-	margin-top: 3%;
-	margin-left: 23%;
-	margin-bottom: 25px;
+section#head img{
+    margin-bottom: 5%;
 }
-p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.7em;
-	color: #6CCAD4;
-	margin-bottom: 10px;
-	position: absolute;
-	top: 310px;
-	margin-bottom: 20px;
+section#head h3{
+    font-weight: 100;
+    font-size: 2.5vw;
+    margin-bottom: 2%;
 }
-ol{
-	margin-top: 25px;
+section#head h1{
+    font-weight: 300;
+    font-size: 2.9vw;
 }
-ul{
-	margin-top: 25px;
+
+div#col1{
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    width: 20%;
 }
-li {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
-	text-align: left;
-	color: #6CCAD4;
-	font-size: 1.01em;
+div#col1 li{
+    list-style: none;
 }
-#col1 {
-	display: inline;
-	float: left;
-	clear: both;
-	margin-left: 35%;
-	margin-right: 60px;
+div#col1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
 }
-#col2 {
-	float: left;
+div#col1 a:hover{
+    color: #039372;
+    font-weight: 300;
 }
-footer {
-	position: absolute;
-	margin-top: 20%;
-	margin-left: 200px;	
+div#col1 p{
+    margin-bottom: 6%;
+    font-size: 1.6vw;
 }
-a:link {
-	font-family: 'Raleway', sans-serif;
-	color: #6CCAD4;
+footer{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    width: 30%;
 }
-a:visited{
-	color: #AC81BA;
+footer a{
+    text-decoration: none;
+    color:  #039372;
 }
