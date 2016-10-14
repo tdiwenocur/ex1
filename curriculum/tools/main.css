@@ -81,36 +81,49 @@ div#emptystrip{
     height: 50%;
     
 }
-section#electronic{
+/* all columns*/
+section.classcol{
     position: absolute;
-    left: 20%;
     top: 17%;
-    
-}
-section#electronic img{
     float: left;
-    
+    clear: right;
 }
-section#electronic h3{
+section.classcol h3{
     color: #a7a9ab;
      font-weight: 700;
     line-height: 15pt;
     margin-bottom: 10%;
 }
-section#electronic h4{
+
+section.classcol h4{
     color: #a7a9ab;
     text-decoration: none;
     font-size: 12pt;
     font-weight: 400;
     line-height: 5pt;
 }
-section#electronic a{
+section.classcol a{
     text-decoration: none;
 }
-section#electronic h3:hover{
-    color: black;
+section.classcol h4:hover{
+    color: #b0d2a9;
+    font-weight: 600;
+}
+/* column for electronic tools*/
+section#electronic{
+    position: absolute;
+    left: 20%;
+    top: 17%;
     
 }
+/* column for hybrid tools */
+section#hybrid{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    
+}
+ 
 
 section#branches a:link{
     color: #a7a9ab;
