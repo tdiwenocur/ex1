@@ -123,7 +123,12 @@ section#hybrid{
     top: 17%;
     
 }
- 
+/* column for craft tools */
+section#craft{
+    position: absolute;
+    left: 60%;
+    top: 17%;
+}
 
 section#branches a:link{
     color: #a7a9ab;
