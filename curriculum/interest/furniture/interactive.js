@@ -5,28 +5,11 @@ $(document).ready(function () {
 //hide all descriptions
 $("section#classes li.description").hide();
 //hide faq
+ //show nav
+$("nav").show();
+//hide faq
     
 $("section#faq").hide();
-    //hide the nav
-    $("nav").hide();
-//click the nav
-$("#sidebar").click(function(){
-    $("#sidebar").hide(500);
-    $("img#puzzle").css("width","1%");
-    $("img#puzzle").css("top","1%");
-    $("nav").show();
-    
-});
-//click the nav
-    
-    $("img#puzzle").click(function(){
-    $("#sidebar").show(500);
-    $("img#puzzle").css("width","inherit");
-    $("img#puzzle").css("top","3%");
-    $("nav").hide();
-    
-});
-   
 //section where all the hovering happens
     
      $("section#classes li#one").hover(function(){
