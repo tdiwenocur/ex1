@@ -97,7 +97,7 @@ section#suggestions{
 section#suggestions article{
     height: 15%;
     position: relative;
-    top: -20px;
+    top: -20fpx;
 }
 section#suggestions h4{
     color: white;
