@@ -64,13 +64,13 @@ nav a:visited{
 /*main content*/
 section#title h2{
     position: absolute;
-    width: 400px;
-    top: 20px;
-    left: 450px;
+    width: 35%;
+    top: 3%;
+    left: 32.5%;
     text-align: center;
     color: #b0d2a9;
-    font-weight: 400;
-    font-size: 20pt;
+    font-weight: 700;
+    font-size: 2.45vw;
 }
 
 div#emptystrip{
