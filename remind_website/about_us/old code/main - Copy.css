@@ -1,0 +1,141 @@
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-image: url(images/homepage_background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+/*dealing with row spacer */
+div.spacer{
+    height: 100px;
+}
+/* dealing with the row with the hamburger*/
+div#hamburger img{
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+}
+/*dealing with the nav */
+div#nav{
+    position: fixed;
+    top: 0px;
+    left: -25px;
+    z-index: 2;
+    backface-visibility: hidden;
+}
+div#nav ul{
+    background-color: rgba(255,255,255, .6);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+div#nav ul img{
+    padding-bottom: 7px;
+}
+div#nav li{
+    padding-bottom: 7px;
+    list-style: none;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 0%;
+}
+div#nav li a{
+    color: black;
+}
+div#nav li a:hover{
+    
+}
+/* dealing with real content*/
+.container{
+    display: table;
+    position: absolute;
+    top: 0px;
+
+}
+div#content .col-sm-12{
+    position: relative;
+    top: 50px;
+    width: 1400px;
+}
+h2#title{
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    margin-bottom: 50px;
+    position: relative;
+    left: 12%;
+}
+div#content p{
+    color: white;
+    font-size: 15pt;
+    width: 60%;
+    position: relative;
+    left: 35%;
+}
+div#staff{
+    position: relative;
+    left: 33%;
+    top: 100px;
+    width: 65%;
+}
+div#staff .col-sm-12{
+    background-color: rgba(255,255,255,.4);
+}
+div#staff .col-sm-12 h3{
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+    margin-bottom: 20px;
+}
+section#imggrid{
+    position: relative;
+    left: 13%;
+}
+div#staff img{
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+img.pushright{
+    margin-right: 150px;
+    transition: all .3s ease-in-out;
+}
+
+section#subtitles{
+    position: relative;
+    left: 9%;
+}
+p.sub{
+    float: left;
+    text-align: center;
+    margin-right: 92px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13pt;
+}
+/*WHEN YOU USE BIG-ISH DEVICES*/
+@media (max-width: 1500px) and (min-width: 900px){
+    h2#title{
+        position: relative;
+        left: 3%;
+    }
+    div#content p{
+        width: 60%;
+        position: relative;
+        left: 23%;
+    }
+    div#staff{
+    position: relative;
+    left: 20%;
+    top: 100px;
+    width: 65%; 
+    }
+}

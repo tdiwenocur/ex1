@@ -1,17 +1,20 @@
 html { 
-  background: url(images/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+     height: 1400px;
+     /*background-color: #2ab14a;*/
+  background-image: linear-gradient(#2ab14a,white 65%);
+ -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 body{
-    background-image: url(images/homepage_background.jpg);
-    background-repeat: no-repeat;
-    font-family: 'Lato', sans-serif;
+       font-family: 'Lato', sans-serif;
     font-weight: 400;
     position: absolute;
+
+ 
 }
+
 /*dealing with row spacer */
 div.spacer{
     height: 100px;
@@ -21,7 +24,19 @@ div#hamburger img{
     position: fixed;
     left: 15px;
     top: 10px;
-    z-index: 1;
+    z-index: 3;
+}
+
+/*dealing with black bar behind navigation*/
+div#bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+     width: 100%; 
+   width: 100vw;
+    height: 50px;
+  background-color: #404041;
+    z-index: 2;
 }
 /*dealing with the nav */
 div#nav{
@@ -54,64 +69,135 @@ div#nav li a:hover{
     
 }
 /* dealing with real content*/
-.container{
-    display: table;
+div#bodyText{
+      width: 100%;
+    width: 100vw;
     position: absolute;
+    left: 0px;
     top: 0px;
+}
+div#bodyText h1{
+    color: white;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 300pt;
+    position: relative;
+    top: 100px;
+}
+div#bodyText p{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 150px;
+    color: white;
+    font-size: 13pt;
+}
+/*images section*/
+div#imgs{
+     width: 100%;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+div.imgbox{
+    width: 13%;
+    position: relative;
+    left: 22.5%;
+    float: left;
+    margin-right: 3%;
+    
+}
+div.imgbox img{
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+     box-shadow: 5px 5px 8px #404041;
+}
+div.imgbox img:hover{
+      -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 
 }
-div#content .col-sm-12{
-    position: relative;
-    top: 50px;
-    width: 1400px;
-}
-h2#title{
-    text-align: center;
-    color: white;
-    font-size: 2.7vw;
-    margin-bottom: 50px;
-}
-div#content p{
-    color: white;
-    font-size: 1.2vw;
-    width: 60%;
-    position: relative;
-    left: 20%;
-}
-div#staff{
-    position: relative;
-    top: 70px;
-    width: 1400px;
-}
-div#staff .col-sm-6{
-    background-color: rgba(255,255,255,.4);
-}
-div#staff .col-sm-6 h3{
-    text-align: center;
-    color: white;
-    font-size: 2vw;
-    margin-bottom: 20px;
-}
-section#imggrid{
-    position: relative;
-    left: 10%;
-}
-div#staff img{
-    display: inline-block;
-    margin-bottom: 10px;
-}
-img.pushright{
-    margin-right: 100px;
-}
-section#subtitles{
-    position: relative;
-    left: 7%;
-}
-p.sub{
-    float: left;
-    text-align: center;
-    margin-right: 65px;
-    margin-bottom: 20px;
+div.imgbox p.title{
     font-weight: 600;
-    font-size: 1.1vw;
+}
+div.imgbox p{
+    text-align: center;
+    color: #404041;
+    font-size: 13pt;
+    margin-bottom: 2px;
+}
+/*for medium devices*/
+@media (max-width: 1093px) and (min-width: 750px){
+    div#bodyText p{
+        position: relative;
+        top: 150px;
+    }
+    div#imgs{
+        position: absolute;
+        top: 480px;
+    }
+}
+/*FOR SMALL DEVICES*/
+@media (max-width: 749px) and (min-width: 535px){
+    html { 
+     height: 1300px;
+     /*background-color: #2ab14a;*/
+        background-image: linear-gradient(#2ab14a,white 65%);
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+    div#bodyText p{
+        width: 70%;
+        position: relative;
+        left: 15%;
+        top: 120px;
+        font-size: 14pt;
+    }
+    div#imgs{
+        position: absolute;
+        top: 480px;
+    }
+    div.imgbox{
+        width: 33%;
+        position: relative;
+        left: 30%;
+        float: none;
+    }
+}
+/*FOR MOBILE DEVICES*/
+
+@media (max-width: 534px){
+        html { 
+        height: 1450px;
+        /*background-color: #2ab14a;*/
+        background-image: linear-gradient(#2ab14a,white 75%);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+    
+     div#bodyText p{
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: 120px;
+        font-size: 14pt;
+    }
+      div#imgs{
+        position: absolute;
+        top: 630px;
+    }
+    div.imgbox{
+        width: 55%;
+        position: relative;
+        left: 18%;
+        float: none;
+    }
 }

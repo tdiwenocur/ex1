@@ -53,48 +53,128 @@ div#nav li a:hover{
     
 }
 /* dealing with real content*/
-.container{
-    display: table;
-}
+
 div#slogan{
-    position: absolute;
-    top: 250px;
-    width: 100%;
+        position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
 }
-div#slogan .col-sm-6{
-    width: 50%;
+div#nag{
+    position: relative;
+    top: 40%;
 }
 div#slogan h2{
     color: white;
     font-weight: 200;
-    font-size: 2.7vw;
-    float: left;
-    clear: right;
-}
-h2#firsthalf{
-    text-align: right;
+    font-size: 32pt;
+    text-align: center;
     position: relative;
-    left: 15%;
+    top: 50%;
 }
-h2#sechalf{
-    position: relative;
-    left: 20%;   
+div#slogan span#firstPart{
+    margin-right: 40px;
+}
+div#slogan span.rwdline{
+    display: inline;
 }
 div#buyapp{
-    position: absolute;
-    top: 500px;
-    width: 100%;
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
 }
-img.center-block{
-    display: inline;
-    position: absolute;
-    top: 5%;
+div#buyapp img{
+ top: 800px;
 }
 img#apple{
-    left: 89%;
-    margin-right: 1%;
+    position: relative;
+    left: 42%;
+ 
 }
 img#play{
-    left: 18%;
-    margin-left: 1%;
+     position: relative;
+    left: 45%;
+  
+}
+/*JUST FOR THE SLOGAN BREAKPOINT*/
+@media(max-width: 704px){
+    div#nag span#firstPart{
+        margin-right:0px;
+    }
+}
+/*JUST FOR THE MENU BREAKPOINT*/
+
+@media(max-width:1153px){
+ background: url(images/homepage_background_sm.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    div#hamburger img{
+    top: 50px;
+}
+    div#buyapp img{
+    top: 750px;
+    }
+    img#apple{
+        position: relative;
+        left: 37%;
+    }
+     img#play{
+        position: relative;
+        left: 41%;
+    }
+}
+
+/*WHEN YOU USE MEDIUM DEVICES*/
+@media (min-width: 380px) and (max-width: 707px){
+    div#nag h2{
+        font-size: 24pt;
+    }
+    div#slogan span#secondPart{
+    display: block;
+     margin-top: 10px;
+}
+    div#buyapp img{
+    top: 700px;
+    }
+    img#apple{
+        position: relative;
+        left: 30%;
+    }
+     img#play{
+        position: relative;
+        left: 32%;
+    }
+}
+/*WHEN YOU USE MOST MOBILE DEVICES*/
+@media(max-width:664px){
+    img#apple{
+        position: relative;
+        left: 38%;
+        top: 700px;
+        display: block;
+    }
+     img#play{
+        position: relative;
+        left: 38%;
+        top: 730px;
+        float: left;
+         display: block;
+    }
+}
+/*WHEN YOU USE SMALL DEVICES*/
+@media (max-width: 380px){
+    div#nag h2{
+    font-size: 24pt;
+    }
+
+    div#nag span#secondPart{
+        display: block;
+        margin-top: 10px;
+    }
 }
