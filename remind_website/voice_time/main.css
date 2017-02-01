@@ -1,20 +1,14 @@
-html{
-  background: url(images/background_image.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html { 
+     
 }
 body{
-    background-image: url(images/background_image.jpg);
-    background-repeat: no-repeat;
-    font-family: 'Lato', sans-serif;
+       font-family: 'Lato', sans-serif;
     font-weight: 400;
     position: absolute;
+
+ 
 }
-div#page1{
-    width: 100%;
-}
+
 /*dealing with row spacer */
 div.spacer{
     height: 100px;
@@ -24,7 +18,19 @@ div#hamburger img{
     position: fixed;
     left: 15px;
     top: 10px;
-    z-index: 1;
+    z-index: 3;
+}
+
+/*dealing with black bar behind navigation*/
+div#bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+     width: 100%; 
+   width: 100vw;
+    height: 50px;
+  background-color: #404041;
+    z-index: 2;
 }
 /*dealing with the nav */
 div#nav{
@@ -32,9 +38,10 @@ div#nav{
     top: 0px;
     left: -25px;
     z-index: 2;
+    backface-visibility: hidden;
 }
 div#nav ul{
-     background-color: rgba(255,255,255, .6);
+    background-color: rgba(255,255,255, .6);
     padding-top: 10px;
     padding-right: 10px;
 }
@@ -52,105 +59,273 @@ div#nav li{
 div#nav li a{
     color: black;
 }
-/* dealing with real content*/
-.container{
-    display: table;
+div#nav li a:hover{
+    
 }
-div#slogan{
+/*dealing with real content*/
+/*page 1 content*/
+div#page1{
+    height: 90vh;
+    background-color: rgba(45, 175, 74, .5);
     position: absolute;
-    top: 100px;
-    width: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
 }
-div#slogan .col-sm-6{
-    width: 50%;
+div#girlPhoto{
+    background-image: url(images/girl_phone.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
-div#slogan h2{
-    color: white;
-    font-weight: 400;
-    font-size: 2.7vw;
-    float: left;
-    clear: right;
+div#saveVoice{
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0px;
 }
-h2#firsthalf{
-    text-align: right;
+div#saveVoice section{
     position: relative;
-    left: 7.5%;
+    top: 150px;
+       
 }
-div#para .col-sm-6{
-    position: absolute;
-    top: 200px;
-    left: 7%;
+div#saveVoice h3,p{
+    color: #404041;
+    font-weight: 600;
 }
-div#content{
-    width: 35%;
+div#saveVoice h3{
+    font-size: 34pt;
+    text-align: center;
+    margin-bottom: 12%;
 }
-div#para .col-sm-6 p{
-    color: white;
-    margin-bottom: 5%;
+div#saveVoice p{
+    font-size: 15pt;
+    width: 70%;
+    margin-bottom: 27pt;
 }
-
-div#navi{
-    position: absolute;
-    left: 45%;
-    top: 580px;
-}
-div#navi ul{
-    list-style: none;
-}
-div#navi li{
-    color: white;
-    font-size: 1.6vw;
-}
-div#navi a{
-    color: white;
-    font-size: 1.3vw;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-/* page 2 */
+/*page 2 content*/
 div#page2{
+    height: 90vh;
     position: absolute;
-    height: 1000px;
-    width: 1366px;
-    top: 1000px;
+    top: 90vh;
+    left: 0px;
+    width: 100vw;
 }
-div#navig ul{
-    list-style: none;
-    position: relative;
-    left: 42%;
-    top: 20px;
-}
-div#navig li{
-    color: white;
-    font-size: 1.6vw;
-}
-div#navig a{
+div#page2 h4{
+    font-size: 17pt;
+    font-weight: 300;
     text-align: center;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3vw;
-     margin-left: 15px;
-    margin-right: 15px;
+    color: #404041;
+    position: relative;
+    top: 15px;
+    transition: .5s;
 }
-/* title page 2*/
+/*content inside the section*/
+div#page2 section{
+    position: relative;
+    top: 100px;
+       font-weight: 600;
+}
+div#page2 h1,p{
+    color: #404041;
+     font-weight: 600;
+}
+div#page2 h1{
+    font-size: 34pt;
+    text-align: center;
+}
+/*dealing with the images and text section*/
+section#process{
+    width: 97.5%;
+    position: absolute;
+    left: 2.5%;
+}
+article.step{
+    width: 17%;
+    margin-right: 2%;
+    position: relative;
+    top: 60px;
+    float: left;
+}
+div#imgbox{
+    height: 80%;
+}
+article.step img{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-bottom: 12px;
+    box-shadow: 6px 6px 10px #888888;
+}
 
-h2#howit{
+article.step h6,p{
+    width: 70%;
     position: relative;
+    left: 15%;
+}
+article.step h6{
+    font-weight: 600;
+    font-size: 17pt;
+
+}
+article.step p{
+    font-weight: 300;
+    font-size: 13pt;    
+}
+
+
+/*WHEN YOU DEAL WITH MIDSIZE DEVICES*/
+
+@media (max-width: 1082px) and (min-width:  820px ){
+/*PAGE 1*/
+
+    div#saveVoice h3{
+    font-size: 28pt;
+    margin-bottom: 10%;
+}
+    div#saveVoice p{
+     width: 85%;
+    left: 7.5%;
+    font-size: 14pt;
+    }
+/*PAGE 2*/
+    div#page2 section{
+        top: 50px;
+    }
+    div#page2 section h1{
+    font-size: 28pt;
+    }
+    article.step{
+        top: 30px;
+    }
+    article.step h6{
+        font-size: 15pt;
+    }
+}
+
+/*WHEN YOU WORK WITH SMALL DEVICES*/
+@media (max-width: 819px){
+/*PAGE 1*/
+    div#page1{
+        height: 160vh;
+    }
+    div#girlPhoto{
+    background-image: url(images/girl_phone.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ }
+    div#saveVoice{
+    position: absolute;
+    top: 90vh;
+    left: 0%;
+    top: 91.5vh;
+    width: 100vw;
+    }
+    /*actual page 1 content*/
+    div#saveVoice section{
+    position: relative;
+    top: 0px;
+       }
+    div#saveVoice h3{
+    font-size: 34pt;
     text-align: center;
-    color: white;
-    font-weight: 400;
-    font-size: 2.7vw;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 9%;
+    width: 90%;
+    left: 5%;
 }
-#page2 ol{
-    width: 40%;
-    position: relative;
-    left: 30%;
+div#saveVoice p{
+    font-size: 15pt;
+    width: 82%;
+    left: 9%;
+    margin-bottom: 27pt;
 }
-#page2 ol li{
-    color: white;
-    margin-bottom: 10px;
-    font-size: 1.2vw;
+/*PAGE 2*/
+    div#page2{
+        top: 2.5vh;
+    }
+    div#page2 h4{
+        display: none;
+    }
+    div#page2 section{
+        top: 160vh;
+    }
+    article.step{
+        float: none;
+        width: 70%;
+        left: 15%;
+        margin-bottom: 50px;
+    }
+}
+/*WHEN YOU WORK WITH PHABLETS*/
+@media(max-width: 415px){
+    div#page1{
+        height: 185vh;
+    }
+    div#page2{
+        top: 25vh;
+    }
+    div#page2 section h1{
+        margin-top: 35px;
+    }
+    article.step{
+        width: 96%;
+        left: 2%;
+        margin-bottom: 75px;
+    }
+    article.step img{
+        margin-bottom: 25px;
+    }
+    article.step h6{
+        font-size: 22pt;
+    }
+    article.step p{
+        font-size: 18pt;
+    }
+}
+
+/*WHEN YOU WORK WITH MOBILE DEVICES*/
+
+@media (max-width: 374px){
+    div#page1{
+        height: 220vh;
+    }
+    div#saveVoice h3{
+        font-size: 28pt;
+    }
+    div#page2{
+        top: 65vh;
+    }
+    div#page2 section h1{
+        font-size: 28pt;
+        width: 95%;
+        left: 2.5%;
+        margin-bottom: 35px;
+    }
+    article.step{
+        width: 94%;
+        left: 3%;
+        top: 15%;
+        margin-bottom: 60px;
+    }
+    article.step img{
+        margin-bottom: 20px;
+    }
+    article.step h6{
+        font-size: 18pt;
+    }
+    article.step p{
+        font-size: 16pt;
+    }
 }

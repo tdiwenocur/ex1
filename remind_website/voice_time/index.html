@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"> 
-        <title>Re:Mind Save Your</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Re:Mind App</title>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -15,8 +16,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <!-- linking to css-->
-<link rel="stylesheet" href="main.css">
-
+<link rel="stylesheet" href="main.css"> 
 <!-- linking jquery and javascript page -->
    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script src="interactive.js"></script>
@@ -24,8 +24,8 @@
   </head>
 <body>
 <div class="container">
-    <div id="page1">
-        <a id="voice" class="smooth"></a>
+    <!--the gray bar at the top of the screen-->
+    <div id="bar"></div>
     <div class="row">
         <div id="hamburger" class="col-sm-12">
         <img src="images/hamburger.png"/>
@@ -36,74 +36,89 @@
         <ul>
             <img src="images/hamburger_bl.png"/>
             <li><a href="../index.html">HOME</a></li>
-            <li>HOW IT WORKS</li>
-            <li><a href="../about_us/index.html">ABOUT</a></li>
-
+            <li><a href="../voice_time/index.html">HOW IT WORKS</a></li>
+            <li>ABOUT</li>
         </ul>
             </div>
     </div>
- <div id="slogan" class="row">
-            <div class="col-sm-6">
-                <h2 id="firsthalf">Save your voice and time.</h2> 
-     </div>
-            <div class="col-sm-6">
-            </div>
+<!-- start actual content -->
+<div id="page1">
+   <div id="girlPhoto"></div>
+    <div id="saveVoice">
+        <section>
+        <h3>Save your <span style="color: white;">voice</span> and <span style="color: white;">time</span>.</h3>
+            <p>This is the app for anyone who doesn’t like pestering their kids. Nagging kids by text (or by mouth) is very 20th century.</p>
+            <p>If you’re a 21st century, technologically savvy parent who would like to save your vocal cords from overuse, this is the app for you!</p>
+            <p>In all likelihood, your kids are on their smartphones when you’re nagging them, so why not use technology to be your deputy?</p>
+            </section>
     </div>
-<div id="para" class="row">
-    <div id="content" class="col-sm-6">
-        <p>This is the app for anyone who doesn’t like pestering their kids. Nagging kids by text (or by mouth) is very 20th century.</p>
-        <p>If you’re a 21st century, technologically savvy parent who would like to save your vocal cords from overuse, this is the app for you!</p>
-        <p>In all likelihood, your kids are on their smartphones when you’re nagging them, so why not use technology to be your deputy?</p>
-    </div>
-     <div class="col-sm-6"></div>
-    </div>
-<!--nav for one page scroll -->
-    
-<div id="navi">
-     <ul>
-         <li>V<a href="#howitworks">How does Re:Mind work?</a>V</li>
-     </ul>
 </div>
-    </div>
+
+<!--SECOND PAGE OF CONTENT -->
+    
+<div id="page2">
+    <h4>Scroll to see how it works</h4>
+    <section>
+        <h1>How does it work?</h1>
+    </section>
+    <section id="process">
+        
+        <article class="step">
+            <div class="imgbox">
+                <img src="images/download.png"/>
+            </div>
+            <article class="textSec">
+            <h6>1. Download</h6>
+            <p>our app on Google Play or the App Store (Junior does, too!)</p>
+            </article>
+        </article>
+         
+        <article class="step">
+            <div class="imgbox">
+                <img src="images/calendar.png"/>
+            </div>
+             <article class="textSec">
+            <h6>2. Connect</h6>
+            <p>us to your calendar app of choice (it automatically syncs up with Junior’s calendar, too.)
+Every time something is coming up, you get a reminder!</p>
+                 </article>
+        </article>
+      
+        <article class="step">
+            <div class="imgbox">
+                <img src="images/remind.png"/>
+            </div>
+             <article class="textSec">
+            <h6>3. Remind </h6>
+            <p>With the press of a button, you have a regularRe:minder
+(TM) sent to Junior reminding him/her that there’s something he/she needs to do!</p>
+                 </article>
+        </article>
+    
+         <article class="step">
+            <div class="imgbox">
+                <img src="images/confirm.png"/>
+            </div>
+             <article class="textSec">
+            <h6>4. Confirm </h6>
+            <p>Once the task is done, Junior can press confirm, and you will know immediately!</p>
+                 </article>
+        </article>
+        
+        <article class="step">
+            <div class="imgbox">
+                <img src="images/power.png"/>
+            </div>
+             <article class="textSec">
+            <h6>5. Play Hard-Ball  </h6>
+            <p>The app is smart! If Junior does not press ‘confirm’ or ‘in progress’ for more than 15 minutes (you set the time), there is a sensor that activates and shuts down all other apps until confirm is pressed. No procrastinating on our watch!!!</p>
+                 </article>
+        </article>
+    </section>
+</div>
+   
 <!--closing container div --> 
  </div>
-<!-- starting page 2 -->
-    <div class="container">
-    <div id="page2">
-  <a id="howitworks" class="smooth"></a>
-  <div id="navig">
-     <ul>
-         <li>^<a href="#voice">Scroll to top</a>^</li>
-     </ul>
-</div>
-    <div class="row">
-        <div class="col-sm-12">
-        <h2 id="howit">How does it work?</h2> 
-        <ol id="process">
-            <li><span style="font-weight:800;">Download</span> our app on Google Play or the App Store (Junior does, too!)</li>
-            <li><span style="font-weight:800;">Connect</span> us to your calendar app of choice (it automatically syncs up with Junior’s calendar, too.) </li>
-            <li>Every time something is coming up, you get a <span style="font-weight:800;">reminder</span>!</li>
-            <li>With the <span style="font-weight:800;">press of a button</span>, you have a regular Re:minder(TM) sent to Junior reminding him/her that there’s something he/she needs to do.</li>
-            <li>Once the task is done, Junior can <span style="font-weight:800;">press confirm</span>, and you will know immediately!</li>
-            <li>The app is smart! If Junior does not press ‘confirm’ or ‘in progress’ for more than 15 minutes (you set the time), there is a sensor that activates and <span style="font-weight:800;">shuts down all other apps</span> until confirm is pressed. No procrastinating on our watch!!!</li>
-            </ol>
-        </div>
-    </div>
-</div>
-<!-- ending page 2 container-->
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-    
-    return false;
-});
-</script>
     </body>
     
 </html>

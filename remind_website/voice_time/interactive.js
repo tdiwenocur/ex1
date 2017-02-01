@@ -2,9 +2,6 @@ $(document).ready(function () {
     
     console.log("ready");
     
-
-
-
 //hide the navigation//
     
   // $("ul#navbar").css("top","-80px");//
@@ -35,7 +32,14 @@ $("div#nav img").click(function() {
 
     })
     
-    
+//hide the text at the bottom when scrolling//
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 150) { 
+        $('div#page2 h4').css({
+            'display': 'none'
+        });
+    }
+});
     
     
     	//close jquery
