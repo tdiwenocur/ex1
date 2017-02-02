@@ -92,7 +92,7 @@ div#saveVoice{
 }
 div#saveVoice section{
     position: relative;
-    top: 150px;
+    top: 10vh;
        
 }
 div#saveVoice h3,p{
@@ -102,12 +102,17 @@ div#saveVoice h3,p{
 div#saveVoice h3{
     font-size: 34pt;
     text-align: center;
-    margin-bottom: 12%;
+    margin-bottom: 8%;
+}
+article#pitch{
+    height: 40vh;
+     overflow-y: scroll;
 }
 div#saveVoice p{
     font-size: 15pt;
     width: 70%;
     margin-bottom: 27pt;
+   
 }
 /*page 2 content*/
 div#page2{
