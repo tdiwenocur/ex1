@@ -218,7 +218,7 @@ article.step p{
 @media (max-width: 819px){
 /*PAGE 1*/
     div#page1{
-        height: 160vh;
+        height: 170vh;
     }
     div#girlPhoto{
     background-image: url(images/girl_phone.jpg);
@@ -246,7 +246,7 @@ article.step p{
     div#saveVoice h3{
     font-size: 34pt;
     text-align: center;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
     width: 90%;
     left: 5%;
 }
@@ -258,7 +258,7 @@ div#saveVoice p{
 }
 /*PAGE 2*/
     div#page2{
-        top: 2.5vh;
+        top: 10vh;
     }
     div#page2 h4{
         display: none;
